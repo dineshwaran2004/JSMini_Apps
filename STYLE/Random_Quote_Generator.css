@@ -1,0 +1,88 @@
+ body {
+      margin: 0;
+      height: 100vh;
+
+      background-image: url("/PROJACT/IMG/JavaScript\ Fundamentals\ Mini\ Apps\ bg.png");
+      background-size: cover;      
+      background-position: center; 
+      background-repeat: no-repeat;
+    }
+.navbar{
+      background-color: rgb(32, 31, 31);
+    height: 80px;
+   
+}
+
+
+.frame-box {
+  position: relative;     
+  width: 900px;
+  margin: 50px auto;
+}
+
+.frame {
+  width: 100%;
+  display: block;
+}
+
+
+.back{
+
+    margin-right: 50px;
+   width: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.back:hover{
+ transform: scale(1.08);
+}
+.frame {
+  width: 1000px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.output_quoet{
+
+ margin-left: 550px;
+ margin-top: 280px;
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  background-color: gold;
+}
+#Quote_button{
+   position: absolute;
+   top: 610px;
+  margin-left: 780px;
+  width: 130px;
+  height: 60px;
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  background-color: chartreuse;
+  transition: 0.8s;
+
+}
+#Quote_button:hover{
+    background-color: black;
+    color: white;
+}
+
+.heading{
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 5px;
+  margin-left: 26px;
+  font-size: 26px;
+}
+.heading::first-letter{
+  color: chartreuse;
+  font-size: 35px;
+}
+.logo{
+  width: 80px;
+}

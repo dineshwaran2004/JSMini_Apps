@@ -1,0 +1,71 @@
+ body {
+      margin: 0;
+      height: 100vh;
+
+      background-image: url("/PROJACT/IMG/JavaScript\ Fundamentals\ Mini\ Apps\ bg.png");
+      background-size: cover;      /* image full screen fill */
+      background-position: center; /* center align */
+      background-repeat: no-repeat;/* repeat aagadhu */
+    }
+.navbar{
+      background-color: rgb(32, 31, 31);
+    height: 80px;
+   
+}
+
+.back{
+
+    margin-right: 50px;
+   width: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.back:hover{
+ transform: scale(1.08);
+}
+
+p{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 35px;
+    font-size: 40px;
+}
+p::first-letter{
+    color: chartreuse;
+    font-size: 45px;
+}
+.do{
+    width: 60px;
+}
+.main{
+    text-align: center;
+    margin-top: 30px;
+}
+#task_input{
+    border-radius: 30px;
+    width: 360px;
+    padding: 30px;
+}
+#add_task_button{
+    width: 90px;
+    border-radius: 25px;
+    font-weight: bolder;
+    background-color: rgb(97, 138, 59);
+    color: white;
+}
+.task_body{
+
+    margin-left: 550px;
+    margin-right: 500px;
+    
+    margin-top: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    
+     color: rgb(46, 62, 29);
+}
+
+#task_output{
+    list-style: none;
+     font-size: 25px;
+}
